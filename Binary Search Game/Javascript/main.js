@@ -35,9 +35,15 @@ function Lower() {
   message.text("Is your number " + currentGuess + "?");
 }
 
+function showsAfterResult() {
+  // Get any element with the style "showsAfterResult" and show it
+  $(".showsAfterResult").show();
+}
+
 function Correct() {
   guessCorrect = true;
   message.text("I got it in " + guessCount + " guesses!");
+  showsAfterResult();
 }
 
 function Start() {

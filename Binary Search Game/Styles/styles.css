@@ -68,3 +68,12 @@ button {
   color: var(--color-primary);
   cursor: pointer;
 }
+
+p {
+  width: 80%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+}
