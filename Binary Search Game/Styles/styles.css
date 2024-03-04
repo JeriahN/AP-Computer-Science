@@ -1,0 +1,70 @@
+/* <h1>Binary Search Game</h1>
+    <hr />
+    <p>
+      Think of a number between 1 and 100 and I will guess it in 7 tries or
+      less.
+    </p>
+    <p>
+      <button type="button" id="start">Start</button>
+    </p>
+    <p>Guess: <span id="guess"></span></p>
+    <form title="buttonArray">
+      <button type="button" id="higher">Higher</button>
+      <button type="button" id="lower">Lower</button>
+      <button type="button" id="correct">Correct</button>
+    </form>
+    <p id="message"></p> */
+
+:root {
+  --background-primary: #252525;
+  --background-secondary: #303030;
+  --background-tertiary: #3d3d3d;
+  --background-quaternary: #494949;
+
+  --color-primary: #f5f5f5;
+  --color-secondary: #e5e5e5;
+  --color-tertiary: #d5d5d5;
+  --color-quaternary: #c5c5c5;
+
+  --accent-primary: #5fa7ff;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-primary);
+  color: var(--color-primary);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+hr {
+  width: 90%;
+  border: 3px solid var(--color-secondary);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  background-color: var(--background-quaternary);
+  border: 0px solid;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: var(--color-primary);
+  cursor: pointer;
+}
